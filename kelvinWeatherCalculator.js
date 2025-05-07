@@ -1,7 +1,7 @@
 // This is a constant kelvin variable
 const kelvin = 283;
 // Celcius is 273 degrees less than kelvin
-const celcius = kelvin - 273;
+const celcius = kelvin - 273.15;
 console.log(`The temperature in celcius is ${celcius}.`);
 // This is the ecuation to calculate fahrenheit
 let fahrenheit = celcius * (9/5) + 32;
